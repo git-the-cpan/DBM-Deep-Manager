@@ -1,5 +1,5 @@
 package DBM::Deep::Manager;
-$DBM::Deep::Manager::VERSION = 0.01;
+$DBM::Deep::Manager::VERSION = 0.02;
 
 
 use DBM::Deep 2.0;
@@ -111,7 +111,7 @@ DBM::Deep::Manager - A container for functions for the dbmdeep program
 
 =head1 SYNOPSIS
 
-If you want to know about the L<dbmtree> program, see the L<dbmtree> file itself.
+If you want to know about the L<dbmdeep> program, see the L<dbmdeep> file itself.
 No user-serviceable parts inside. ack is all that should use this.
 
 =head1 AUTHOR
@@ -143,6 +143,6 @@ and/or modify it under the same terms as Perl itself.
 
 =head1 VERSION
 
-This is the manual page for B<DBM::Deep::Manager> Version 0.01.
+This is the manual page for B<DBM::Deep::Manager> Version 0.02.
 
 =cut
