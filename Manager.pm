@@ -1,5 +1,5 @@
 package DBM::Deep::Manager;
-$DBM::Deep::Manager::VERSION = 0.02;
+$DBM::Deep::Manager::VERSION = 0.03;
 
 
 use DBM::Deep 2.0;
@@ -143,6 +143,6 @@ and/or modify it under the same terms as Perl itself.
 
 =head1 VERSION
 
-This is the manual page for B<DBM::Deep::Manager> Version 0.02.
+This is the manual page for B<DBM::Deep::Manager> Version 0.03.
 
 =cut

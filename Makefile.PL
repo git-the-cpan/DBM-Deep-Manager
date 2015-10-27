@@ -1,7 +1,7 @@
 #
 # Makefile.PL - build file for DBM::Tree::Manager
 #
-# Copyright (c) 2007-2014 T. v.Dein <tom |AT| cpan.org>.
+# Copyright (c) 2007-2015 T. v.Dein <tom |AT| cpan.org>.
 # All Rights Reserved. Std. disclaimer applies.
 # Artistic License, same as perl itself. Have fun.
 #
@@ -14,9 +14,7 @@ WriteMakefile(
 	      'EXE_FILES'    => [ 'bin/dbmdeep' ],
               ABSTRACT     => 'Maintain DBM::Deep databases interactively',
               LICENSE      => 'perl',
-              AUTHOR       => [
-                'Thomas v.Dein <tlinden@cpan.org>',
-              ],
+              AUTHOR       => 'Thomas v.Dein <tlinden@cpan.org>',
 	      clean        => { FILES => '*~ */*~' },
 	      PREREQ_PM    => { 
 			       'DBM::Deep' => 2.0,
